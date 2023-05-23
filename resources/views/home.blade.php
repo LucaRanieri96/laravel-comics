@@ -13,7 +13,7 @@
         <div class="col">
             <div>
                 <img src="{{$comic["thumb"]}}" alt="type">
-                <a href="/comic/{{$comic["title"]}}" class="mt-2">{{$comic["title"]}}</a>
+                <a href="/comic" class="mt-2">{{$comic["title"]}}</a>
             </div>
         </div>
         @endforeach
