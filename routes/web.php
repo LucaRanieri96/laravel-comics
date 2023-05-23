@@ -18,3 +18,9 @@ Route::get('/', function () {
 
     return view('home', compact('comics'));
 });
+
+
+Route::get('/comic/Action%20Comics%20#1000:%20The%20Deluxe%20Edition', function () {
+
+    return view('comic1');
+});
