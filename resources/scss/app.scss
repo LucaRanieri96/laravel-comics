@@ -90,7 +90,38 @@ header {
 }
 
 .bg_dc {
-    background-image: url("./assets/images/dc-logo-bg.png");
+    background-image: url("/assets/images/dc-logo-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.main_top {
+    position: relative;
+}
+#title {
+    padding: 0.6rem;
+    background-color: $primary;
+    position: absolute;
+    float: left;
+    top: -26.39px;
+    h3 {
+        margin: 0;
+    }
+}
+
+#banner {
+    height: 600px;
+    background-image: url(/assets/images/jumbotron.jpg);
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+p {
+    color: grey;
+    &:hover {
+        color: white;
+    }
 }
