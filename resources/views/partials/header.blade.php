@@ -1,5 +1,5 @@
 
-<div class="blue">
+<div class="blue-bg">
     <div class="container d-flex justify-content-end">
         <span>DC POWER VISA</span>
         <span class="ms-5">ADDITIONAL DC SITES</span>
